@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="창준 - 프로필 링크">
+    <meta property="og:description" content="내가 만든 내 프로필링크">
+    <meta property="og:image" content="사진.JPG">
+    <title>창준(golden) - 프로필 링크</title>
+    <style>
+        @import url('https://fonts.googleapis.com/earlyaccess/jejumyeongjo.css');
+        * {
+                font-family: "Jeju Myeongjo",serif;
+        }
+        body {background-color: skyblue;}
+        .profile {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            
+            border: 2px solid white;
+
+            background-image: url('사진.JPG');
+            background-position: center;
+            background-size: cover;
+        } 
+        .main {
+            color:white;
+            font-size: 23px;
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }   
+        .sub { color:white;
+            font-size: 16px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;    
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px;   
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+
+            font-size: 15px;
+            font-weight: bold;
+            color: blue;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        .wrap > a:hover{
+            background-color: #f2f2f2;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">창준</h1>
+        <p class="sub">저에 대해 궁금하다면..</p>
+        <a target="_blank" href="https://blog.naver.com/golden2049">블로그</a>
+        <a target="_blank" href="https://www.instagram.com/golden_jun.k/">인스타그램</a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100003356550807">페이스북</a>
+        <a target="_blank" href="https://likeable-innocent-e03.notion.site/Golden-c4dcff0bfb14446d98264cf8403090b7/">노션 포트폴리오</a>
+    </div>
+</body>
+</html>
